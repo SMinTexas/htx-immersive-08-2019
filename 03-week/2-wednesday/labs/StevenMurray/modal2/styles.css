@@ -1,0 +1,46 @@
+body {
+    box-sizing: border-box;
+}
+
+.latin {
+    opacity: .25;
+}
+
+.modal-dialog {
+    position: fixed;
+    top: 200px;
+    right: 800px;
+    bottom: 400px;
+    left: 600px;
+    width: 25%;
+    border: 5px solid black;
+    background-color: white;
+    box-shadow: 7px 7px 20px 0px rgba(0, 0, 0, 0.3), 40px 40px 10px -40px rgba(0, 0, 0, 0.8) inset;
+    border-radius: 15px;
+}
+
+.modal-header {
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    height: 40px;
+    width: 100%;
+    background-color: gray;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.modal-content {
+    position: absolute;
+    font-size: 20px;
+    width: 100%;
+    top: 41px;
+    left: 50px;
+}
+
+.modal-buttons {
+    position: absolute;
+    font-size: 10px;
+    width: 100%;
+    top: 150px;
+    left: 50px;
+}
