@@ -1,0 +1,43 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+
+.header {
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: lightgreen;
+    order: 1;
+    padding: 20px;
+    min-width: 300px;
+    margin-right: 2px;
+    max-height: 300px;
+}
+
+.main {
+    background-color: tan;
+    order: 2;
+    flex-grow: 2;
+    padding: 30px;
+    min-width: 800px;
+    margin-left: 2px;
+}
+
+.footer {
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
