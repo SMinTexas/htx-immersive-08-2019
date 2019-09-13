@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fake Google</title>
+    <style>
+        * {
+            margin: 0;
+            background-color: white;
+            box-sizing: border-box;
+        }
+        
+        input {
+            border-radius: 15px;
+            padding: 5px;
+            border: 1px solid black;
+            width: 450px;
+            height: 35px;
+        }
+        
+        button {
+            font-size: 15px;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 800px;
+            border: 1px solid black;
+        }
+        
+        .box {
+            width: 400px;
+            margin: 5px;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo" align="middle">
+        </div>
+        <div class="box">
+            <p>
+                <input type="text" />
+            </p>
+            <br>
+            <p>
+                <button type="button">Google Search</button>
+                <button type="button">I'm Feeling Lucky</button>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
