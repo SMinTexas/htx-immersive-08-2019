@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+    <link href="blog.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="follow">
+        <p>Follow | Sign In/Sign Up</p>
+    </div>
+    <div class="bio">
+        <img src="SAM_1323.JPG" alt="the author">
+        <div class="bio2">
+            <p><b>Steven Murray</b></p>
+            <p>Software Engineer, Spouse & Dad, Scale Models, Texas Aggie Football, Photography </p>
+            <p>September 11 | 7 minute read</p>
+        </div>
+    </div>
+
+    <div>
+        <h1>Introducing Apex Ping</h1>
+        <p>I'd like to introduce <b><u>Apex Ping</u></b>! A minimalistic but powerful uptime & </p>
+        <p>monitoring service for websites and APIs. In this post I'll cover features of</p>
+        <p>Apex Ping, why I chose to build it first, and a few things I learned in the process. </p>
+        <p>In future posts I'll be detailing the implementation for anyone who is curious.</p>
+        <br>
+        <p>I soft-launched Ping about a month ago, built almost 100% on AWS Lambda,</p>
+        <p>with 500 users it has already detected over a million errors, and performed</p>
+        <p>over 25 million checks. Big thanks to the early adopters who have checked it out!</p>
+        <img src="tj_blog_img1.png" alt="pic1">
+        <h2>The Product</h2>
+        <p>I've seen first-hand how embarrassing it can be when customers find out</p>
+        <p>your product is having issues before you do, naturally this can translate to</p>
+        <p>customers bailing on your product. Ensuring your site, app, or API is stable</p>
+        <p>and performant is critical.</p>
+        <br>
+        <p>Apex Ping helps by making sure your team is notified when there's a performance</p>
+        <p>regression, or when you end-point is down or unresponsive. Often people rely on</p>
+        <p>"it works for me", but Apex Ping's reporting can help uncover the full story.</p>
+        <br>
+        <h3>Powerful Monitoring</h3>
+        <p>Unlike some other uptime monitoring services, which only support HEAD requests, </p>
+        <p>Apex Ping supports header fields and bodies as well. This allows you to test APIs,</p>
+        <p>caching behavior, and serving time, as well as the typical connection latency.</p>
+        <br>
+        <p>The checks listing displays the uptime, mean response, Apdex score, and the</p>
+        <p>Apdex score throughout the day, week, or month. The Apdex score generalizes the</p>
+        <p>user experience, summarizing response time satisfaction and error responses.</p>
+        <img src="tj_blog_img2.png" alt="pic2">
+        <h2>Global Checks</h2>
+        <p>Requests or "checks" are performed from a number of selectable PoPs (Point </p>
+        <p>of Presence), giving you a glance at the customer experience all over the</p>
+        <p>world. Hovering a PoP provides you with the breakdown, and coloring </p>
+        <p>indicates their relative health so you can instantly see if a region's </p>
+        <p>availability or performance is degraded. </p>
+        <img src="tj_blog_img3.png" alt="pic3">
+        <h3>Latency Distribution</h3>
+        <p>When latency is a reflection of the user experience, it's important not to</p>
+        <p>ignore the outliers. The Latency view provides you with an intuitive look at </p>
+        <p>distribution throughout the selected time period, where the intensity of the</p>
+        <p>heatmap represents the number of checks within the given duration.</p>
+        <img src="tj_blog_img4.png" alt="pic4">
+        <h3>Errors & Apdex</h3>
+        <p>The Apdex (Application Performance Index) score quantifies the user</p>
+        <p>experience based on a configured target latency. It effectively lets you know</p>
+        <p>how far you are from hitting your mark, you should strive for a perfect 1.0!</p>
+        <img src="tj_blog_img5.png" alt="pic5">
+
+
+    </div>
+</body>
+
+</html>
