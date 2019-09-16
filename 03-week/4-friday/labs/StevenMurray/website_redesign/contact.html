@@ -9,8 +9,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Huynh Restaurant</title>
+    <title>Huynh Restaurant Contact</title>
     <style>
+        .contactus {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
         .container {
             display: flex;
             justify-content: center;
@@ -29,7 +35,11 @@
             font-size: 4;
         }
         
-        .spacer h4 {
+        h5 {
+            text-align: center;
+        }
+        
+        .spacer {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -70,43 +80,30 @@
         </li>
     </ul>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="phoenix.jpg" class="d-block w-100" alt="Phoenix" height="475">
-            </div>
-            <div class="carousel-item">
-                <img src="shrimp.jpg" class="d-block w-100" alt="Shrimp" height="475">
-            </div>
-            <div class="carousel-item">
-                <img src="chop.jpg" class="d-block w-100" alt="Chop" height="475">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
     <div class="spacer">
-        <h4 style="text-align:right;">
-            "This is home-style Vietnamese cooking at its best." - Critic's Picks, Houston Chronicle
-        </h4>
+        <h4>Contact Huynh Restaurant</h4>
     </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.897642673554!2d-95.35782374960122!3d29.751675381901403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf21c84a1981%3A0x9c741885c49e668f!2sHuynh%20Restaurant!5e0!3m2!1sen!2sus!4v1568483569803!5m2!1sen!2sus"
-        width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="no">
-    </iframe>
+
+    <div class="contactus">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group col-md-14">
+                <textarea wrap="soft" placeholder="What do you want to tell us?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Contact</button>
+            <br>
+            <br>
+        </form>
+    </div>
+
     <div class="footer">
         <p>912 Saint Emanuel | Houston, Texas 77003 | 713-22-HUYNH | 713-224-8964</p>
     </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
