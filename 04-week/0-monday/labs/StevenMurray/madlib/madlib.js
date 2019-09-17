@@ -3,7 +3,10 @@ function madlibIt() {
     var name = document.getElementById("name").value;
     var subject = document.getElementById("subject").value;
 
-    storyDiv.innerHTML = name + "'s favorite subject in school was " + subject + " (believe it or not)"
+    if (subject == "Math" || subject == "math")
+        storyDiv.innerHTML = name + "'s favorite subject in school was " + subject + " (believe it or not)";
+    else
+        storyDiv.innerHTML = name + "'s favorite subject in school was " + subject + ".";
 }
 
 var madlibButton = document.getElementById('madlib-button');
