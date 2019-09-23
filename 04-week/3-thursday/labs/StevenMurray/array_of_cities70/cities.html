@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cities</title>
+</head>
+
+<body>
+
+    <script>
+        function cities70(numbers) {
+            array70 = [];
+            numbers.forEach((element, index, array) => {
+                if (element.temperature < 70) {
+                    console.log(element.name);
+                    array70.push(element.name);
+                }
+            });
+            return array70;
+        }
+
+        var cities = [{
+            name: 'Los Angeles',
+            temperature: 60.0
+        }, {
+            name: 'Atlanta',
+            temperature: 52.0
+        }, {
+            name: 'Detroit',
+            temperature: 48.0
+        }, {
+            name: 'New York',
+            temperature: 80.0
+        }];
+
+        var newArray = cities70(cities);
+        console.log("newArray", newArray);
+    </script>
+</body>
+
+</html>

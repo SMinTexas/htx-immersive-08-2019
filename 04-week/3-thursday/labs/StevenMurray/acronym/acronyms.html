@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Acronymns</title>
+</head>
+
+<body>
+
+    <script>
+        function acronym(text) {
+            return text + " " + text.split(/\s/).
+            reduce((accumulator, word) => accumulator + word.charAt(0), '').toUpperCase();
+        }
+
+        console.log(acronym('very important person'));
+        console.log(acronym('national aeronautics space administration'));
+        console.log(acronym('the phantom menace'));
+        console.log(acronym('attack of the clones'));
+        console.log(acronym('revenge of the sith'));
+        console.log(acronym('a new hope'));
+        console.log(acronym('the empire strikes back'));
+        console.log(acronym('return of the jedi'));
+        console.log(acronym('the force awakens'));
+        console.log(acronym('the last jedi'));
+        console.log(acronym('the rise of skywalker'));
+        console.log(acronym('central intelligence agency'));
+    </script>
+</body>
+
+</html>
