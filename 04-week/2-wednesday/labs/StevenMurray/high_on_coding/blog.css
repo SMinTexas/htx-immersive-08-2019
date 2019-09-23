@@ -61,6 +61,12 @@ main {
     padding: 10px 20px;
 }
 
+p {
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px 20px 2px;
+}
+
 .post-footer {
     display: flex;
     margin: 10px;
@@ -70,8 +76,8 @@ main {
 
 .post-footer>div {
     color: white;
-    margin: 10px;
-    padding: 10px 20px;
+    margin: 2px;
+    padding: 2px 20px;
 }
 
 

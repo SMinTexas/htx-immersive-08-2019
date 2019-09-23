@@ -73,7 +73,7 @@ function buildContent() {
     var post1 = buildPost("Hello Watchkit", postStory1);
     var post2 = buildPost("Intro to Swift", postStory2);
     var post3 = buildPost("A Developer's Favorite - C#", postStory3);
-    var post4 = buildPost("An albatross around one's neck", postStory4);
+    var post4 = buildPost("Delphi - An albatross around one's neck", postStory4);
     var post5 = buildPost("The world's last remaining dinosaur - Visual Basic", postStory5);
     var post6 = buildPost("A Solid Database Engine Built on SQL", postStory6);
     var post7 = buildPost("Another Solid Database Engine Built on NoSQL", postStory7);
