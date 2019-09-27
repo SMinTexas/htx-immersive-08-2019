@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#timerLabel {
+    margin: 100px 0px;
+    color: white;
+}
+
+.title {
+    font-family: 'Berkshire Swash', cursive;
+    color: midnightblue;
+}
